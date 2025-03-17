@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "vazir";
+  src: url("../fonts/Vazir/Vazir.eot");
+  src:
+    url("../fonts/Vazir/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir/Vazir.woff") format("woff"),
+    url("../fonts/Vazir/Vazir.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.eot");
+  src: url("../fonts/Roboto/Roboto-Regular.eot?#iefix"),
+    format("embedded-opentype"), url("../fonts/Roboto/Roboto-Regular.woff2"),
+    format("woff2"), url("../fonts/Roboto/Roboto-Regular.woff"), format("woff"),
+    url("../fonts/Roboto/Roboto-Regular.ttf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  font-family: "Gohar";
+  src: url("../fonts/Gohar/Gohar-Medium.ttf"),
+    url("../fonts/Gohar/Gohar-Medium.woff"),
+    url("../fonts/Gohar/Gohar-Medium.woff2");
+}
+@font-face {
+  font-family: "rockinsoda";
+  src: url("../fonts/Rockinsoda/Rockinsoda.ttf");
+  src: url("../fonts/Rockinsoda/Rockinsoda.otf"), format("embedded-opentype"),
+    url("../fonts/Rockinsoda/Rockinsoda.woff"), format("woff"),
+    url("../fonts/Rockinsoda/Rockinsoda.woff2"), format("woff2"),
+    url("../fonts/Roboto/Roboto-Regular.ttf"), format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "gohar";
+  src: url("../fonts/Gohar/Gohar-Medium.ttf"),
+    url("../fonts/Gohar/Gohar-Medium.woff"),
+    url("../fonts/Gohar/Gohar-Medium.woff2");
+}
+@font-face {
+  font-family: "Leila";
+  src: url("../fonts/Leila/Leila-Regularfontrayegan.eot");
+  src: url("../fonts/Leila/Leila-Regularfontrayegan.ttf"), format("ttf"),
+    url("../fonts/Leila/Leila-Regularfontrayegan.woff"), format("woff"),
+    url("../fonts/Leila/Leila-Regularfontrayegan.woff2"), format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  -webkit-font-smoothing: "antialiased";
+}
+
+.MuiCard-root::-webkit-scrollbar {
+  display: none;
+}
